@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical" >
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:id="@+id/textV1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:text="1/10  长虹揽月"
+               android:textColor="#FF0000" />
+           
+           <ImageView
+               android:id="@+id/imgV1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:src="@drawable/changhong" />
+
+           <Button
+               android:id="@+id/buttoncp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:text="评分" />
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/textV2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:text="2/10  巨碟邀星"
+               android:textColor="#FF0000" />
+
+           <ImageView
+               android:id="@+id/imgV2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:src="@drawable/judie" />
+           
+           <Button
+               android:id="@+id/buttonjp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:text="评分" />
+
+           
+
+       </RelativeLayout>
+       
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/textV3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="53dp"
+               android:text="3/10  雅湖云影"
+               android:textColor="#FF0000" />
+
+           <ImageView
+               android:id="@+id/imgV3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/textV3"
+               android:layout_marginTop="18dp"
+               android:src="@drawable/yahu" />
+
+           <!-- <Button -->
+           <!-- android:id="@+id/buttonyx" -->
+           <!-- android:layout_width="wrap_content" -->
+           <!-- android:layout_height="wrap_content" -->
+           <!-- android:layout_alignParentLeft="true" -->
+           <!-- android:layout_below="@+id/imgV3" -->
+           <!-- android:layout_marginTop="42dp" -->
+           <!-- android:text="详情" /> -->
+
+           <Button
+               android:id="@+id/buttonyp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:text="评分" />
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/textV4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="53dp"
+               android:text="4/10  书海风荷"
+               android:textColor="#FF0000" />
+
+           <ImageView
+               android:id="@+id/imgV4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/textV4"
+               android:layout_marginTop="18dp"
+               android:src="@drawable/shuhai" />
+
+           <Button
+               android:id="@+id/buttonsp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:text="评分" />
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/textV5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="53dp"
+               android:text="5/10  兰亭春晓"
+               android:textColor="#FF0000" />
+
+           <ImageView
+               android:id="@+id/imgV5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/textV5"
+               android:layout_marginTop="18dp"
+               android:src="@drawable/lanting" />
+
+           <!-- <Button -->
+           <!-- android:id="@+id/buttonlx" -->
+           <!-- android:layout_width="wrap_content" -->
+           <!-- android:layout_height="wrap_content" -->
+           <!-- android:layout_alignParentLeft="true" -->
+           <!-- android:layout_below="@+id/imgV5" -->
+           <!-- android:layout_marginTop="42dp" -->
+           <!-- android:text="详情" /> -->
+
+           <Button
+               android:id="@+id/buttonlp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:text="评分" />
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/textV6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="53dp"
+               android:text="6/10  艺苑秋歌"
+               android:textColor="#FF0000" />
+
+           <ImageView
+               android:id="@+id/imgV6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/textV6"
+               android:layout_marginTop="18dp"
+               android:src="@drawable/yiyuan" />
+
+           <!-- <Button -->
+           <!-- android:id="@+id/buttonyix" -->
+           <!-- android:layout_width="wrap_content" -->
+           <!-- android:layout_height="wrap_content" -->
+           <!-- android:layout_alignParentLeft="true" -->
+           <!-- android:layout_below="@+id/imgV6" -->
+           <!-- android:layout_marginTop="42dp" -->
+           <!-- android:text="详情" /> -->
+
+           <Button
+               android:id="@+id/buttonyip"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:text="评分" />
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/textV7"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="53dp"
+               android:text="7/10  丛鱼听学"
+               android:textColor="#FF0000" />
+
+           <ImageView
+               android:id="@+id/imgV7"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/textV7"
+               android:layout_marginTop="18dp"
+               android:src="@drawable/congyu" />
+
+           <!-- <Button -->
+           <!-- android:id="@+id/buttoncox" -->
+           <!-- android:layout_width="wrap_content" -->
+           <!-- android:layout_height="wrap_content" -->
+           <!-- android:layout_alignParentLeft="true" -->
+           <!-- android:layout_below="@+id/imgV7" -->
+           <!-- android:layout_marginTop="42dp" -->
+           <!-- android:text="详情" /> -->
+
+           <Button
+               android:id="@+id/buttoncop"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:text="评分" />
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/textV8"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="53dp"
+               android:text="8/10  三省问天"
+               android:textColor="#FF0000" />
+
+           <ImageView
+               android:id="@+id/imgV8"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/textV8"
+               android:layout_marginTop="18dp"
+               android:src="@drawable/sanxing" />
+
+           <!-- <Button -->
+           <!-- android:id="@+id/buttonsax" -->
+           <!-- android:layout_width="wrap_content" -->
+           <!-- android:layout_height="wrap_content" -->
+           <!-- android:layout_alignParentLeft="true" -->
+           <!-- android:layout_below="@+id/imgV8" -->
+           <!-- android:layout_marginTop="42dp" -->
+           <!-- android:text="详情" /> -->
+
+           <Button
+               android:id="@+id/buttonsap"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:text="评分" />
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/textV9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="53dp"
+               android:text="9/10  藤廊遗梦"
+               android:textColor="#FF0000" />
+
+           <ImageView
+               android:id="@+id/imgV9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/textV9"
+               android:layout_marginTop="18dp"
+               android:src="@drawable/tenglang" />
+
+           <!-- <Button -->
+           <!-- android:id="@+id/buttontx" -->
+           <!-- android:layout_width="wrap_content" -->
+           <!-- android:layout_height="wrap_content" -->
+           <!-- android:layout_alignParentLeft="true" -->
+           <!-- android:layout_below="@+id/imgV9" -->
+           <!-- android:layout_marginTop="42dp" -->
+           <!-- android:text="详情" /> -->
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/textV10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="53dp"
+               android:text="10/10  麦野浮金"
+               android:textColor="#FF0000" />
+
+           <ImageView
+               android:id="@+id/imgV10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/textV10"
+               android:layout_marginTop="18dp"
+               android:src="@drawable/maiye" />
+
+           <!-- <Button -->
+           <!-- android:id="@+id/buttonmx" -->
+           <!-- android:layout_width="wrap_content" -->
+           <!-- android:layout_height="wrap_content" -->
+           <!-- android:layout_alignParentLeft="true" -->
+           <!-- android:layout_below="@+id/imgV10" -->
+           <!-- android:layout_marginTop="42dp" -->
+           <!-- android:text="详情" /> -->
+
+           <Button
+               android:id="@+id/buttontp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+               android:text="评分" />
+
+           <Button
+               android:id="@+id/buttonmp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:text="评分" />
+
+       </RelativeLayout>
+   </LinearLayout>
+
+</ScrollView>
